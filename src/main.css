@@ -1,0 +1,357 @@
+.pageHeader {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 5rem;
+  color: #f5f5f5;
+  background-color: #172026;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.homeContainer {
+  margin-top: 5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.loginContainer {
+  margin: auto;
+  width: 40%;
+  margin-top: 10rem;
+}
+
+.loginCenter {
+  margin: auto;
+  width: 8.5%;
+}
+
+.card-header {
+  background-color: #cacece;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.card-footer {
+  background-color: #cacece;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cardContainer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: #172026;
+}
+
+.homeLead {
+  color: #172026;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.form-control:focus {
+  border-color: #e91431;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #e91431;
+  outline: 0 none;
+}
+
+.form-control {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.navContainer {
+  background-color: white;
+  color: #e91431;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-bottom-color: #172026;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.nav-link {
+  color: #e91431;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav-link:hover::after {
+  text-decoration: none !important;
+  background: #e91431;
+  color: #e91431 !important;
+}
+
+.navbar-brand {
+  color: #e91431;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#logo {
+  width: 1rem;
+  height: 1rem;
+}
+
+.navLoggedIn {
+  padding-right: 1rem;
+}
+
+.cardFooter {
+  position: relative;
+  height: 4rem;
+}
+
+.likeBtn {
+  position: absolute;
+  left: 0.5rem;
+}
+
+.linkName {
+  color: #303030;
+}
+
+.likeCount {
+  color: #303030;
+  padding-left: 0.5em;
+}
+
+.reviewLikes {
+  padding-left: 0.5rem;
+}
+.reviewBtn {
+  position: absolute;
+  right: 0.5rem;
+}
+
+.reviewPosted {
+  clear: both;
+}
+
+.notLoggedContainer {
+  margin: auto;
+  width: 40%;
+  margin-top: 10rem;
+}
+
+.notLoggedBtn {
+  margin: auto;
+  width: 30%;
+}
+
+.reviewPostedSpacing {
+  margin-bottom: 1rem;
+  padding-bottom: 5rem;
+}
+
+.reviewContent {
+  clear: both;
+}
+
+.reviewBody {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 4rem;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+#homeRow {
+  position: relative;
+}
+
+#accBtnHome {
+  position: absolute;
+  right: 5%;
+}
+
+#createBtnHome {
+  margin-left: 20%;
+}
+
+.display {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.footer {
+  color: #f2f4f5;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #172026;
+  clear: both;
+  margin-top: 60px;
+}
+
+.barRender {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.barSelects {
+  width: 30%;
+  margin: auto;
+}
+
+.barSlider {
+  width: 30%;
+  margin: auto;
+}
+
+.proxPara {
+  font-size: x-large;
+  color: #172026;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+  background-color: #f2f4f5;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 7.5px 0;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 17px;
+  cursor: pointer;
+  box-shadow: 1.2px 1.2px 1px #000000, 0px 0px 1.2px #0d0d0d;
+  background: #cacece;
+  border-radius: 0px;
+  border: 0px solid #010101;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 32px;
+  width: 40px;
+  border-radius: 3px;
+  background: #172026;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7.5px;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  background: #cacece;
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 17px;
+  cursor: pointer;
+  box-shadow: 1.2px 1.2px 1px #000000, 0px 0px 1.2px #0d0d0d;
+  background: #cacece;
+  border-radius: 0px;
+  border: 0px solid #010101;
+}
+
+input[type="range"]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 32px;
+  width: 40px;
+  border-radius: 3px;
+  background: #616364;
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-track {
+  width: 100%;
+  height: 17px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type="range"]::-ms-fill-lower {
+  background: #cacece;
+  border: 0px solid #010101;
+  border-radius: 0px;
+  box-shadow: 1.2px 1.2px 1px #000000, 0px 0px 1.2px #0d0d0d;
+}
+
+input[type="range"]::-ms-fill-upper {
+  background: #cacece;
+  border: 0px solid #010101;
+  border-radius: 0px;
+  box-shadow: 1.2px 1.2px 1px #000000, 0px 0px 1.2px #0d0d0d;
+}
+
+input[type="range"]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 32px;
+  width: 40px;
+  border-radius: 3px;
+  background: #616364;
+  cursor: pointer;
+  height: 17px;
+}
+
+input[type="range"]:focus::-ms-fill-lower {
+  background: #cacece;
+}
+
+input[type="range"]:focus::-ms-fill-upper {
+  background: #cacece;
+}
+
+.accountCard {
+  padding-bottom: 3rem;
+}
+.rowSpacing {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  clear: both;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.btnSpace {
+  margin-bottom: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.textRed {
+  color: #e91431;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.trueReviewFav {
+  background-color: #a2a0a0;
+  color: white;
+  padding: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.falseReviewFav {
+  padding: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.align {
+  width: 80%;
+  margin: auto;
+}
+.greyOut {
+  color: #616364;
+}
